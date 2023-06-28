@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
+    grid-template-areas: "i a a c"
+                         "i d e g"
+                         "b d e g"
+                         "f f e j"
+                         "f f h j";
+
+
+    grid-gap: 5px;
+}
+
+.photo-1 {
+    background-image: url(Equipes/RedBull.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    grid-area: a;
+}
+
+.photo-2 {
+    background-image: url(Equipes/AlphaTauri.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: b;
+}
+
+.photo-3 {
+    background-image: url(Equipes/AstonMartin.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: c;
+}
+
+.photo-4  {
+    background-image: url(Equipes/Ferrari.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: d;
+}
+
+.photo-5 {
+    background-image: url(Equipes/alfaRomeo.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: e;
+}
+
+.photo-6 {
+    background-image: url(Equipes/Alpine.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: f;
+}
+
+.photo-7 {
+    background-image: url(Equipes/Haas.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: g;
+}
+
+.photo-8 {
+    background-image: url(Equipes/McLaren.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    grid-area: h;
+}
+
+.photo-9 {
+    background-image: url(Equipes/Mercedes.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: i;
+}
+
+.photo-10 {
+    background-image: url(Equipes/Willians.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-area: j;
+}
